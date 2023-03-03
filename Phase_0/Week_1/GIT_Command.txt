@@ -1,0 +1,48 @@
+GIT Command (local)
+$ git init
+$ git add <file(s)>
+$ git status
+$ git commit
+$ git config
+$ git branch
+$ git help
+$ Git log
+
+3 Area pada repo GIT
+	- Working Tree
+	- Staging Area	( masuk folder .git)
+	- History		( masuk folder .git)
+
+Working Tree	>	Staging Area	>	History
+		>>>>>>>>>>>>>>>		>>>>>>>>>>>>>>
+			git add				git commit
+
+- untuk membuat folder/ repo di awasi GIT. ketik "git init" pada terminal
+
+- ketika selesai buat file / edit file. ketik "Git status" untuk melihat perubahan.
+
+- ketik "git add <file(s)>" untuk memindahkan dari working tree ke staging area
+
+- ketik  "git commit -m 'tulisan pesan' " supaya pindah ke history
+
+- ketik "git log" untuk melihat perubahan pada repo git
+
+- ketik "git checkout [5 digit file perubahan] -- [file/keadaan yang di undo]"
+
+- "git config --list"  untuk melihat isi git
+
+- "ssh-keygen" S
+
+sh-keygen is a tool for creating new authentication key pairs for SSH. Such key pairs are used for automating logins, single sign-on, and for authenticating hosts.
+
+- "git remote"
+
+- "git push"
+
+
+
+
+
+
+
+
